@@ -94,11 +94,10 @@ assert `r(N)'==100
 assert percent_employed > 0 & percent_employed < 100
 
 
-
+* Cutoffs
 drop if var1 < 110
 drop if var2 < 110
 drop if var3 < 110
-
 
 
 local cutoff = 110
